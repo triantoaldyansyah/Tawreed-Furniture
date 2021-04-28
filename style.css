@@ -1,0 +1,307 @@
+* {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: inherit;
+}
+head{
+    display: none;
+}
+
+body {        
+    font-family: 'Rubik', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+    .container{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        align-items: flex-start;
+    }
+    .container-display-1{
+        padding: 5px;
+        width: 25%;
+        float: left;
+        padding-left: 104px;
+        display: flex;
+        flex-direction: column;
+    }
+    .container-display-2{
+        width: 60%;
+        height: auto;
+        padding: 5px;
+        padding-top: 98px;
+        margin: inherit;
+        padding-left: 44px;
+        display: flex;
+        flex-direction: row;
+    }
+    .kemasan{
+        width: 100%;
+        margin: auto;
+        background-color: #FFFFFF;
+        display: flex;
+    }
+    .sticky{
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    .navbar-logo{
+        width: auto;
+        margin: auto;
+        padding-top: 42px;
+        padding-left: 20px;
+        display: flex;
+        float: left;
+    }
+    .nav-item-active{
+        width: auto;
+        margin: auto;
+        padding-top: 30px;
+        align-items: flex-start;
+        display: flex;
+    }
+    .button {
+        border: none;
+        width: 106px;
+        height: 48px;
+        background-color: #1D6861;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-family: 'Rubik', sans-serif;
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+      }
+      .button:hover {
+        background-color: #20b87d;
+        color: white;
+      }
+      .button-header {
+        border: none;
+        width: auto;
+        margin: auto;
+        padding-top: 20px;
+        padding-left: 10px;
+        color: white;
+        display: flex;
+      }
+      
+      .btn-header-login {
+        width: 106px;
+        height: 48px;
+        align-content: center;
+        font-family: 'Rubik', sans-serif;
+        font-size: 14px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        background-color: white;
+        color: #535353;
+        border: none;
+        float: left;
+        display: inline;
+      }
+      .btn-header-register {
+        width: 106px;
+        height: 48px;
+        padding: 10px;
+        font-family: 'Rubik', sans-serif;
+        font-size: 14px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        align-content: center;
+        background-color: #1D6861;
+        color: #FFFF;
+        border: 1px transparent;
+        float: left;
+        display: inline;
+      }
+      .btn-header-register:hover {
+        background-color: #20b87d;
+        color: white;
+      }
+      .btn-image-section-1{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        bottom: 240px;
+        right: 74px;
+        background-color: #1D6861;
+        color: white;
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.5px;
+        padding: 12px;
+      }
+    .section-1{
+        width: auto;
+        margin: auto;
+        display: flex;
+        align-items: flex-start;
+    }
+    .jumbotron{
+        background-size: contain;
+        height: auto;
+        float: left;
+        position: relative;
+        display: contents;
+    }
+    .jumbotron .container{
+        z-index: 1;
+        position: relative;
+        float: left;
+    }
+    .btn-jumbotron{
+        border: none;
+        width: 106px;
+        height: 48px;
+        background-color: #1D6861;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-family: 'Rubik', sans-serif;
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+    .btn-jumbotron:hover{
+        background-color: #20b87d;
+        color: white;
+    }
+    .display-1{
+        width: 90%;
+        height: auto;
+        margin: auto;
+        display: flex;
+        padding-top: 200px;
+        padding-right: 60px;
+        font-family: 'Rubik',sans-serif;
+        font-size: 36px;
+        font-weight: 500;
+        font-style: normal;
+        line-height: 164%;
+        letter-spacing: 1px;
+        color: black;
+    }
+    .display-2{
+        width: 60%;
+        height: auto;
+        margin: inherit;
+        display: grid;
+        padding-top: 27px;
+        padding-right: 200px;
+        padding-bottom: 36px;
+        font-family: 'Rubik',sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: 0.5px;
+        color: #A5A5A5;
+        float: left;
+    }
+    .image-section-1#carousel{
+        margin: auto;
+        padding-left: 32px;
+        width: 706px;
+        height: 520px;
+        float: left;
+        display: flex;
+        overflow: hidden;
+
+    }
+    .text-block{
+        position: absolute;
+        width: 100px;
+        height: 4%;
+        bottom: 100px;
+        right: 479px;
+        background-color: #FF6500;
+        color: white;
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.5px;
+        padding-top: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .text-block-definition{
+        position: absolute;
+        width: 340px;
+        height: 13%;
+        bottom: 0px;
+        right: 231px;
+        background-color: white;
+        color: #A5A5A5;
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.5px;
+        padding-top: 24px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .text-block-definition-detail{
+        position: absolute;
+        width: 340px;
+        height: 5%;
+        bottom: 0px;
+        right: 230px;
+        color: #1D6861;
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.5px;
+        padding-top: 24px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .icon{
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        right: 210px;
+        bottom: 10px;
+    }
+    .fixed-footer{
+        width: 100%;
+        position: fixed;        
+        background: #333;
+        padding: 10px 0;
+        color: #fff;
+    }
+    .fixed-footer{
+        bottom: 0;
+    }
+    header{
+        background-color: #FFFFFF;
+        height: 10%;
+        width: 100%;
+        margin: auto;
+        position: fixed;
+    }
+    nav a{
+        font-family: 'Rubik', sans-serif;
+        color: #535353;
+        align-content: center;
+        text-decoration: none;
+        padding: 7px 25px;
+        display: flex;
+        flex-wrap: wrap;
+    }
