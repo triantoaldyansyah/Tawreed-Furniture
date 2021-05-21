@@ -37,11 +37,29 @@ body {
         display: flex;
         flex-direction: row;
     }
+    .container-display-3{
+        width: 48%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .container-display-4{
+        width: 100%;
+        height: auto;
+        top: 160px;
+        left: -12px;
+        position: absolute;
+        float: left;
+        
+    }
     .kemasan{
         width: 100%;
+        height: auto;
         margin: auto;
         background-color: #FFFFFF;
-        display: flex;
+        position: fixed;
+        top: 0;
+        overflow: hidden;
     }
     .sticky{
         position: fixed;
@@ -62,6 +80,15 @@ body {
         padding-top: 30px;
         align-items: flex-start;
         display: flex;
+    }
+    .nav-item-section-2{
+        width: 52%;
+        height: auto;
+        padding-top: 40px;
+        padding-left: 100px;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
     }
     .button {
         border: none;
@@ -141,11 +168,40 @@ body {
         letter-spacing: 0.5px;
         padding: 12px;
       }
+    .btn-nav-section-2{
+        border: none;
+        width: 118px;
+        height: 33px;
+        margin-right: 12px;
+        background-color: #F2F2F2;
+        color: #A5A5A5;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-family: 'Rubik', sans-serif;
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+    .btn-nav-section-2:hover{
+        background-color: #FF6500;
+        color: #FFFFFF;
+    }
     .section-1{
-        width: auto;
+        width: 100%;
+        height: auto;
         margin: auto;
         display: flex;
         align-items: flex-start;
+    }
+    .section-2{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        top: 700px;
+        left: 104px;
+        position: absolute;
     }
     .jumbotron{
         background-size: contain;
@@ -205,6 +261,36 @@ body {
         font-size: 14px;
         font-weight: 400;
         font-style: normal;
+        line-height: 164%;
+        letter-spacing: 0.5px;
+        color: #A5A5A5;
+        float: left;
+    }
+    .display-3{
+        width: 90%;
+        height: auto;
+        margin: auto;
+        padding-right: 60px;
+        font-family: 'Rubik',sans-serif;
+        font-size: 36px;
+        font-weight: 500;
+        font-style: normal;
+        line-height: 164%;
+        letter-spacing: 1px;
+        color: black;
+    }
+    .display-4{
+        width: 60%;
+        height: auto;
+        margin: inherit;
+        display: grid;
+        padding-top: 24px;
+        padding-bottom: 36px;
+        font-family: 'Rubik',sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 164%;
         letter-spacing: 0.5px;
         color: #A5A5A5;
         float: left;
@@ -217,7 +303,13 @@ body {
         float: left;
         display: flex;
         overflow: hidden;
-
+    }
+    .image-section-2{
+        width: 392px;
+        height: 320px;
+        display: flex;
+        overflow: hidden;
+        margin: 8px;
     }
     .text-block{
         position: absolute;
@@ -279,6 +371,10 @@ body {
         right: 210px;
         bottom: 10px;
     }
+    .article-2{
+        background-color: blue;
+        color: white;
+    }
     .fixed-footer{
         width: 100%;
         position: fixed;        
@@ -295,6 +391,8 @@ body {
         width: 100%;
         margin: auto;
         position: fixed;
+        top: 0;
+        overflow: hidden;
     }
     nav a{
         font-family: 'Rubik', sans-serif;
@@ -302,6 +400,6 @@ body {
         align-content: center;
         text-decoration: none;
         padding: 7px 25px;
-        display: flex;
+        display: block;
         flex-wrap: wrap;
     }
