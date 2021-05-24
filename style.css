@@ -8,7 +8,9 @@ head{
     display: none;
 }
 
-body {        
+body {     
+    width: 100%;  
+    height: auto; 
     font-family: 'Rubik', sans-serif;
     padding: 0;
     margin: 0;
@@ -21,7 +23,7 @@ body {
     }
     .container-display-1{
         padding: 5px;
-        width: 25%;
+        width: 40%;
         float: left;
         padding-left: 104px;
         display: flex;
@@ -153,21 +155,22 @@ body {
         color: white;
       }
       .btn-image-section-1{
-        position: absolute;
-        width: 20px;
-        height: 20px;
-        bottom: 240px;
-        right: 74px;
+        display: flex;
+        width: 40px;
+        height: 40px;
+        margin-left: 172px;
+        margin-top: 220px;
         background-color: #1D6861;
         color: white;
-        font-family: 'Rubik', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 17px;
-        letter-spacing: 0.5px;
-        padding: 12px;
+        border: transparent;
+        letter-spacing: 0.5px;  
+        transition-duration: 0.4s;
+        cursor: pointer;
+        padding: 8px;
       }
+    .btn-image-section-1:hover{
+        background-color:#20b87d ;
+    }
     .btn-nav-section-2{
         border: none;
         width: 118px;
@@ -235,7 +238,7 @@ body {
         color: white;
     }
     .display-1{
-        width: 90%;
+        width: 100%;
         height: auto;
         margin: auto;
         display: flex;
@@ -296,15 +299,23 @@ body {
         float: left;
     }
     .image-section-1#carousel{
-        margin: auto;
         padding-left: 32px;
-        width: 706px;
+        width: 600px;
         height: 520px;
         float: left;
         display: flex;
         overflow: hidden;
     }
-    .image-section-2{
+    .image-section-2#carousel{
+        margin: auto;
+        padding-left: 32px;
+        width: 506px;
+        height: 520px;
+        float: left;
+        display: flex;
+        overflow: hidden;
+    }
+    .image-section-3{
         width: 392px;
         height: 320px;
         display: flex;
@@ -312,11 +323,11 @@ body {
         margin: 8px;
     }
     .text-block{
-        position: absolute;
+        display: flex;
         width: 100px;
-        height: 4%;
-        bottom: 100px;
-        right: 479px;
+        height: 3%;
+        margin-top: 380px;
+        margin-left: -600px;
         background-color: #FF6500;
         color: white;
         font-family: 'Rubik', sans-serif;
@@ -325,16 +336,17 @@ body {
         font-size: 14px;
         line-height: 17px;
         letter-spacing: 0.5px;
-        padding-top: 5px;
-        padding-left: 20px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 30px;
         padding-right: 20px;
     }
     .text-block-definition{
-        position: absolute;
-        width: 340px;
-        height: 13%;
-        bottom: 0px;
-        right: 231px;
+        display: flex;
+        width: 320px;
+        height: 134px;
+        margin-top: 401px;
+        margin-left: -150px;
         background-color: white;
         color: #A5A5A5;
         font-family: 'Rubik', sans-serif;
@@ -346,13 +358,14 @@ body {
         padding-top: 24px;
         padding-left: 24px;
         padding-right: 24px;
+        padding-bottom: 24px;
     }
     .text-block-definition-detail{
-        position: absolute;
+        display: flex;
         width: 340px;
         height: 5%;
-        bottom: 0px;
-        right: 230px;
+        margin-top: 450px;
+        margin-left: -368px;
         color: #1D6861;
         font-family: 'Rubik', sans-serif;
         font-style: normal;
@@ -365,15 +378,12 @@ body {
         padding-right: 24px;
     }
     .icon{
-        position: absolute;
+        display: flex;
         width: 24px;
         height: 24px;
-        right: 210px;
-        bottom: 10px;
-    }
-    .article-2{
-        background-color: blue;
-        color: white;
+        margin-right: 190px;
+        margin-top: -2px;
+
     }
     .fixed-footer{
         width: 100%;
@@ -393,6 +403,7 @@ body {
         position: fixed;
         top: 0;
         overflow: hidden;
+        align-items: center;
     }
     nav a{
         font-family: 'Rubik', sans-serif;
