@@ -55,6 +55,19 @@ body {
         margin-top: 40px;  
         margin-left: 100px;    
     }
+    .container-display-5{
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        margin-top: 40px;  
+        margin-left: 0px;    
+    }
+    .container-display-6{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+    }
     .container-article{
         width: 100%;
         display: flex;
@@ -196,6 +209,26 @@ body {
         background-color: #FF6500;
         color: #FFFFFF;
     }
+    .btn-detail-section-3{
+        border: none;
+        width: 236px;
+        height: 72px;
+        background-color: #FFFFFF;
+        color: #414141;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-family: 'Rubik', sans-serif;
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        margin-top: 450px;
+        margin-left: -560px;
+    }
+    .btn-detail-section-3:hover{
+        background-color: #F2F2F2;
+    }
     .section-1{
         width: 100%;
         height: auto;
@@ -208,6 +241,13 @@ body {
         height: auto;
         display: flex;
         flex-direction: column;
+    }
+    .section-3{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        margin-top: 168px;
     }
     .jumbotron{
         background-size: contain;
@@ -298,6 +338,34 @@ body {
         float: left;
         margin-top: 24px;
     }
+    .display-5{
+        width: 70%;
+        height: auto;
+        display: flex;
+        font-family: 'Rubik',sans-serif;
+        font-size: 36px;
+        font-weight: 500;
+        font-style: normal;
+        line-height: 164%;
+        letter-spacing: 1px;
+        color: black;
+        margin-left: 120px;
+    }
+    .display-6{
+        width: 340px;
+        height: auto;
+        display: flex;
+        font-family: 'Rubik',sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 164%;
+        letter-spacing: 0.5px;
+        color: #A5A5A5;
+        float: left;
+        margin-top: 8px;
+        margin-left: 122px;
+    }
     .image-section-1#carousel{
         padding-left: 32px;
         width: 640px;
@@ -306,21 +374,18 @@ body {
         display: flex;
         overflow: hidden;
     }
-    .image-section-2#carousel{
-        margin: auto;
-        padding-left: 32px;
-        width: 506px;
-        height: 520px;
-        float: left;
-        display: flex;
-        overflow: hidden;
-    }
-    .image-section-3{
+    .image-section-2{
         width: 392px;
         height: 320px;
         display: flex;
         overflow: hidden;
         margin: 12px;
+    }
+    .image-section-3{
+        width: 840px;
+        height: 521px;
+        display: flex;
+        overflow: hidden;
     }
     .article-style{
         font-family: 'Rubik', sans-serif;
