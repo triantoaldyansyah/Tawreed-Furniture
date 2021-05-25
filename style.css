@@ -10,10 +10,12 @@ head{
 
 body {     
     width: 100%;  
-    height: auto; 
+    height: 100%; 
     font-family: 'Rubik', sans-serif;
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
     .container{
         width: 100%;
@@ -40,19 +42,24 @@ body {
         flex-direction: row;
     }
     .container-display-3{
-        width: 48%;
+        width: 90%;
         height: auto;
         display: flex;
         flex-direction: column;
+        margin-left: 104px;
     }
     .container-display-4{
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        margin-top: 40px;  
+        margin-left: 100px;    
+    }
+    .container-article{
         width: 100%;
-        height: auto;
-        top: 160px;
-        left: -12px;
-        position: absolute;
-        float: left;
-        
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
     }
     .kemasan{
         width: 100%;
@@ -84,13 +91,11 @@ body {
         display: flex;
     }
     .nav-item-section-2{
-        width: 52%;
-        height: auto;
-        padding-top: 40px;
-        padding-left: 100px;
-        margin: auto;
+        width: 40%;
         display: flex;
         flex-direction: row;
+        margin-top: -40px;
+        margin-left: 800px;
     }
     .button {
         border: none;
@@ -158,7 +163,7 @@ body {
         display: flex;
         width: 40px;
         height: 40px;
-        margin-left: 172px;
+        margin-left: 212px;
         margin-top: 220px;
         background-color: #1D6861;
         color: white;
@@ -201,10 +206,8 @@ body {
     .section-2{
         width: 100%;
         height: auto;
-        margin: auto;
-        top: 700px;
-        left: 104px;
-        position: absolute;
+        display: flex;
+        flex-direction: column;
     }
     .jumbotron{
         background-size: contain;
@@ -270,10 +273,9 @@ body {
         float: left;
     }
     .display-3{
-        width: 90%;
+        width: 100%;
         height: auto;
-        margin: auto;
-        padding-right: 60px;
+        display: flex;
         font-family: 'Rubik',sans-serif;
         font-size: 36px;
         font-weight: 500;
@@ -283,12 +285,9 @@ body {
         color: black;
     }
     .display-4{
-        width: 60%;
+        width: 28%;
         height: auto;
-        margin: inherit;
-        display: grid;
-        padding-top: 24px;
-        padding-bottom: 36px;
+        display: flex;
         font-family: 'Rubik',sans-serif;
         font-size: 14px;
         font-weight: 400;
@@ -297,11 +296,12 @@ body {
         letter-spacing: 0.5px;
         color: #A5A5A5;
         float: left;
+        margin-top: 24px;
     }
     .image-section-1#carousel{
         padding-left: 32px;
-        width: 600px;
-        height: 520px;
+        width: 640px;
+        height: 540px;
         float: left;
         display: flex;
         overflow: hidden;
@@ -320,14 +320,55 @@ body {
         height: 320px;
         display: flex;
         overflow: hidden;
-        margin: 8px;
+        margin: 12px;
+    }
+    .article-style{
+        font-family: 'Rubik', sans-serif;
+    }
+    .article-section-2{
+        width: 30%;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 164%;
+        letter-spacing: 0.5px;
+        color: #A5A5A5;
+        margin-left: 112px;
+    }
+    .article-section-2-1{
+        width: 30%;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 164%;
+        letter-spacing: 0.5px;
+        color: #A5A5A5;
+    }
+    .article-section-2-2{
+        width: 30%;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 158%;
+        letter-spacing: 0.5px;
+        color: #414141;
+        margin-left: 112px;
+    }
+    .article-section-2-3{
+        width: 30%;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 158%;
+        letter-spacing: 0.5px;
+        color: #414141;
     }
     .text-block{
         display: flex;
-        width: 100px;
-        height: 3%;
+        width: 120px;
+        height: 4%;
         margin-top: 380px;
-        margin-left: -600px;
+        margin-left: -640px;
         background-color: #FF6500;
         color: white;
         font-family: 'Rubik', sans-serif;
@@ -336,17 +377,16 @@ body {
         font-size: 14px;
         line-height: 17px;
         letter-spacing: 0.5px;
-        padding-top: 2px;
-        padding-bottom: 2px;
-        padding-left: 30px;
-        padding-right: 20px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 20px;
     }
     .text-block-definition{
         display: flex;
         width: 320px;
-        height: 134px;
-        margin-top: 401px;
-        margin-left: -150px;
+        height: 100px;
+        margin-top: 404px;
+        margin-left: -140px;
         background-color: white;
         color: #A5A5A5;
         font-family: 'Rubik', sans-serif;
@@ -358,7 +398,7 @@ body {
         padding-top: 24px;
         padding-left: 24px;
         padding-right: 24px;
-        padding-bottom: 24px;
+        padding-bottom: 12px;
     }
     .text-block-definition-detail{
         display: flex;
