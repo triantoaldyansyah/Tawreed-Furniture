@@ -79,8 +79,28 @@ body {
         width: 60%;
         display: flex;
         flex-direction: row;
-        margin-top: 164px;
-        margin-left: -100px;
+        margin-top: -364px;
+        margin-left: 500px;
+    }
+    .container-display-9{
+        width: 94%;
+        display: flex;
+        flex-direction: row;
+        margin-top: 18px;
+        margin-left: 80px;
+    }
+    .container-display-10{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 18px;
+    }
+    .container-display-11{
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        margin-top: 40px;
+        margin-left: 100px;
     }
     .container-article{
         width: 100%;
@@ -252,6 +272,7 @@ body {
     }
     .section-2{
         width: 100%;
+        margin-top: 24px;
         height: auto;
         display: flex;
         flex-direction: column;
@@ -267,8 +288,16 @@ body {
         width: 100%;
         height: auto;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         margin-top: 104px;
+    }
+    .section-5{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 360px;
+        margin-bottom: 140px;
     }
     .jumbotron{
         background-size: contain;
@@ -318,6 +347,27 @@ body {
         margin-top: 36px;
     }
     .btn-jumbotron-section-4:hover{
+        background-color: #20b87d;
+        color: white;
+    }
+    .btn-jumbotron-section-5{
+        border: none;
+        width: 162px;
+        height: 44px;
+        background-color: #1D6861;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-family: 'Rubik', sans-serif;
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        margin-top: 48px;
+        margin-left: 644px;
+    }
+    .btn-jumbotron-section-5:hover{
         background-color: #20b87d;
         color: white;
     }
@@ -450,6 +500,30 @@ body {
         float: left;
         margin-top: 24px;
     }
+    .display-10{
+        width: 50%;
+        margin-left: 602px;
+        font-family: 'Rubik',sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 43px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        color: #414141;
+    }
+    .display-11{
+        width: 50%;
+        margin-left: 526px;
+        font-family: 'Rubik',sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 164%;
+        text-align: center;
+        letter-spacing: 0.5px;
+        color: #A5A5A5;
+    }
     .image-section-1#carousel{
         padding-left: 32px;
         width: 640px;
@@ -477,6 +551,13 @@ body {
         display: flex;
         overflow: hidden;
         padding-left: 28px;
+    }
+    .image-section-5{
+        width: 392px;
+        height: 320px;
+        display: flex;
+        overflow: hidden;
+        margin: 12px;
     }
     .rating{
         width: 76px;
@@ -549,6 +630,63 @@ body {
         margin-left: 24px;
         margin-top: 8px;
     }
+    .article-section-4-5-1{
+        width: 8%;
+        margin-top: -260px;
+        margin-left: 1084px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 158%;
+        text-align: center;
+        letter-spacing: 0.5px;
+        color: #A5A5A5;
+    }
+    .article-footer-1{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        color: #000000;
+    }
+    .article-footer-2{
+        margin-top: 24px;
+        margin-bottom: 24px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 164%;
+        letter-spacing: 0.5px;
+        color: #535353;
+    }
+    .article-footer-3{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 164%;
+        letter-spacing: 0.5px;
+        color: #535353;
+    }
+    .article-footer-4{
+        margin-top: 24px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 164%;
+        letter-spacing: 0.5px;
+        color: #535353;
+    }
+    .article-footer-5{
+        margin-top: 16px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 164%;
+        letter-spacing: 0.5px;
+        color: #535353;
+    }
     .box-article-section-4-1{
         width: 192px;
         height: 104px;
@@ -566,6 +704,15 @@ body {
         background-color: #FFFFFF;
         margin-top: 316px;
         margin-left: 228px;
+    }
+    .box-article-section-4-3{
+        width: 192px;
+        height: 104px;
+        display: flex;
+        flex-direction: column;
+        background-color: #FFFFFF;
+        margin-top: 316px;
+        margin-left: -612px;
     }
     .text-block{
         display: flex;
@@ -649,15 +796,49 @@ body {
         margin-left: 214px;
         margin-top: -22px;
     }
-    .fixed-footer{
+    .footer{
         width: 100%;
-        position: fixed;        
-        background: #333;
+        height: 355px;
+        display: flex;
+        flex-direction: row;        
+        background: #F9F9F9;
         padding: 10px 0;
         color: #fff;
     }
-    .fixed-footer{
+    .footer{
         bottom: 0;
+    }
+    .container-footer-1{
+        width: 284px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 98px;
+        margin-left: 248px;
+    }
+    .container-footer-2{
+        width: 100px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 98px;
+        margin-left: 138px;
+    }
+    .container-footer-3{
+        width: 64px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 98px;
+        margin-left: 129px;
+    }
+    .container-footer-4{
+        width: 104px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 98px;
+        margin-left: 147px;
     }
     header{
         background-color: #FFFFFF;
