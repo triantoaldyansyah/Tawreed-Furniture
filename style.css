@@ -588,6 +588,7 @@ body {
         font-size: 16px;
         line-height: 164%;
         letter-spacing: 0.5px;
+        margin-left: 2px;
         color: #A5A5A5;
     }
     .article-section-2-2{
@@ -601,12 +602,13 @@ body {
         margin-left: 112px;
     }
     .article-section-2-3{
-        width: 30%;
+        width: 392px;
         font-style: normal;
         font-weight: 500;
         font-size: 20px;
         line-height: 158%;
         letter-spacing: 0.5px;
+        margin-left: 4px;
         color: #414141;
     }
     .article-section-4-1{
